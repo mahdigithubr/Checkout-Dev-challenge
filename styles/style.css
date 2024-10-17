@@ -233,4 +233,39 @@ label {
   width: 100%;
 }
 
- 
+@media screen and (max-width: 576px) {
+  .checkout-container {
+    flex-direction: column;
+  }
+
+  .left-div {
+    width: 100%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  .right-div {
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 880px) {
+  .checkout-container {
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+
+  .left-div {
+    width: 100%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  .right-div {
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+}
